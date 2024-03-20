@@ -20,7 +20,8 @@ Các bước install TailwindCSS ver 3.x
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
 6. file index.html trong thư mục src
-    <!doctype html>
+
+    <!-- <!doctype html>
     <html>
     <head>
         <meta charset="UTF-8">
@@ -32,7 +33,7 @@ Các bước install TailwindCSS ver 3.x
             Hello world!
         </h1>
     </body>
-    </html>    
+    </html>     -->
 
 7. Click phải chọn Open Live Server & xem kết quả ở trình duyệt
 
