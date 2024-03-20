@@ -19,24 +19,9 @@ Các bước install TailwindCSS ver 3.x
 5. tại cửa sổ command 
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
-6. file index.html trong thư mục src với link href như sau: '<link href="./output.css" rel="stylesheet">'
-
-    <!-- <!doctype html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./output.css" rel="stylesheet">
-    </head>
-    <body>
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-    </body>
-    </html>     -->
+6. tạo file index.html trong thư mục src với link href trỏ tới file output.css ở bước 5
 
 7. Click phải chọn Open Live Server & xem kết quả ở trình duyệt
-
 
 8. Khai báo màu sắc, font chữ, media queries ở file tailwind.config.js
 
