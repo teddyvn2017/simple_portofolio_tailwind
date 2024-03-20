@@ -19,7 +19,7 @@ Các bước install TailwindCSS ver 3.x
 5. tại cửa sổ command 
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
-6. file index.html trong thư mục src
+6. file index.html trong thư mục src với link href như sau: <link href="./output.css" rel="stylesheet">
 
     <!-- <!doctype html>
     <html>
