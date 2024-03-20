@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .nav__link {
+        @apply relative hover:text-mau_do;
+    }
+
+    .nav__link::after {
+        @apply content-[''] bg-mau_do h-[4px] w-[0%] absolute left-0 -bottom-[8px] rounded-xl duration-300
+    }
+
+    .nav__link:hover::after {
+        @apply w-[100%]
+    }
+
+    .shadow__right {
+        box-shadow: -22px 0px 15px -8px rgba(0,0,0,0.1);
+    }
+
+    .hide__menu {
+        right:-100%;    
+    } 
+
+    .show__menu {
+        right:0;
+    }
+
+    .sidebar__menu {
+        position: fixed;	
+		top: 5rem;
+		width: 70%;
+		height: 100%;		
+		z-index: 1;
+		transition: right .4s ease;
+    }
+}  
